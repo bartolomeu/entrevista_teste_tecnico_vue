@@ -77,15 +77,16 @@
 #sideForm{
   margin-top: 20rem !important;
 }
+@media only screen and (max-width: 960px) {
+  #sideForm{
+    margin-top: 2rem !important;
+  }
+}
 </style>
 <script>
-// @ is an alias to /src
-//import HelloWorld from "@/components/HelloWorld.vue";
-
 export default {
   name: "Home",
   components: {
-//    HelloWorld
   }
 };
 </script>
