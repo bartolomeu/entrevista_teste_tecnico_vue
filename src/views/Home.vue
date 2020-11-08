@@ -2,7 +2,7 @@
   <div class="home">
     <div class="row">
       
-      <div class="col-6">
+      <div class="col-lg-6">
         <div id="jumbo" class="m-3 p-4 border border-primary text-primary">
           <h1 class="h6">Vida Toda</h1>
           <h1 class="display-1 pb-5 font-weight-bold text-uppercase">Bem Estar</h1>
@@ -23,7 +23,7 @@
         </div>
       </div>
 
-      <div class="col-6">
+      <div class="col-lg-6">
         <div id="sideForm" class="bg-primary p-3 m-5 text-light ">
           <h2 class="font-weight-bold text-secondary">Pronto para planejar seu sossego?</h2>
           <p>Agende uma consultoria sem compromisso pelo formulário abaixo!</p>

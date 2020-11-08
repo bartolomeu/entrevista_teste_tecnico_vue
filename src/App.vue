@@ -1,7 +1,7 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/blog">Blog</router-link>
   </div>
   <main role="main" class="container">
     <router-view />
@@ -9,13 +9,18 @@
 </template>
 
 <style>
-#app {
+#app::after{
+  content: '';
   background-image: url(https://picsum.photos/650);
   background-repeat: no-repeat;
-  background-size: 100% 40%;
-  min-height: 100%;
+  background-size: cover;
+  background-position: bottom;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: -40%;
+  z-index: -2;
 }
-
 #nav {
   text-align: center;
   padding: 30px;
