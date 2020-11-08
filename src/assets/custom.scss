@@ -1,0 +1,10 @@
+$primary: #313365;
+$secondary: #ff9b23;
+
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+@import "node_modules/bootstrap-vue/src/index.scss";
+
+#nav a:hover,
+#nav a.router-link-exact-active {
+  color: #ff9b23;
+}
